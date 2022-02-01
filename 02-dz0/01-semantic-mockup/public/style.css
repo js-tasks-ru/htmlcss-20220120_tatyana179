@@ -1,0 +1,77 @@
+:root {
+    --color-white: white;
+    --color-red: red;
+    --color-blue: blue;
+    --color-green: green;
+    --color-orange: orange;
+    --color-violet: #bd00ff;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: var(--color-white);
+    font-size: 16px;
+}
+
+ul, ol, h1, h2 {
+    margin: 0;
+}
+ul, ol {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+a, a:visited {
+    color: var(--color-white);
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+    font-size: 20px;
+}
+
+
+
+header {
+    background-color: var(--color-red);
+    text-align: center;
+    padding: 5px 0 0;
+}
+
+main {
+    background-color: var(--color-green);
+    padding: 10px;
+}
+footer {
+    background-color: var(--color-violet);
+    text-align: center;
+    font-size: 34px;
+    padding: 5px 0;
+}
+
+nav {
+    background-color: var(--color-orange);
+    padding: 10px 0;
+    margin-top: 5px;
+}
+nav a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+article {
+    background-color: var(--color-blue);
+    margin-bottom: 5px;
+    padding: 25px 10px;
+}
